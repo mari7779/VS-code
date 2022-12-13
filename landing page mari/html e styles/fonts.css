@@ -1,0 +1,12 @@
+@font-face {
+     font-family: 'montserrat';
+     src: url('fonts/montserrat/Montserrat-Regular.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+ }
+ @font-face {
+    font-family: 'league';
+    src: url('fonts/league-spartan/leaguespartan-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

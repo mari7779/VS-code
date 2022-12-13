@@ -1,0 +1,117 @@
+body{
+    background-color: #253668;
+    color: white;
+    font-family: league;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+h1{
+    font-weight: bold;
+    color: #E4E4E4;
+}
+
+ul{
+    margin-top: 5px;
+    float: right;
+}
+
+a{
+    color: #E4E4E4;
+    display: inline-block;
+    margin: 5px;
+    max-width: 100px;
+}
+
+a:hover{
+    color: #60CFFE;
+    transition: 0.3s all;
+}
+
+#educacao-tecnologica-btn{
+    border: 2px solid #0F5CD0;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+#educacao-tecnologica-btn:hover{
+    background-color: #0F5CD0;
+    color: #E4E4E4;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 50px;
+    line-height: 10px;
+    font-family: league;
+    color: white;
+}
+
+span{
+    color: #60CFFE;
+}
+
+span:hover{
+    color: #2fbbf7;
+    transition: 0.3s all;
+}
+
+p{
+    line-height: 20px;
+    max-width: 1000px;
+    font-family: league;
+}
+
+image{
+    width: 620px;
+    padding-left: 750px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 700;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: #0F5CD0;
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 15px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    font-size: 15px;
+}
+
