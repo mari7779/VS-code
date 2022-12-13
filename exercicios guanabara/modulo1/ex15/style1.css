@@ -1,0 +1,25 @@
+body{
+    background-color: #50a827;
+    color: white;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-weight: bold;
+}
+
+img{
+    width: 620px;
+}
+
+p{
+    text-align: center;
+    line-height: 20px;
+    max-width: 1000px;
+}
